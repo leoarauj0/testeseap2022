@@ -1,0 +1,95 @@
+{
+  "unidades": [
+    {
+      "id": 1,
+      "descricao": "UND1"
+    },
+    {
+      "id": 2,
+      "descricao": "UND2"
+    },
+    {
+      "id": 3,
+      "descricao": "UND3"
+    }
+  ],
+  "detentos": [
+    {
+      "id": 1,
+      "nome": "Cicrano",
+      "unidade": "UND1",
+      "nomeMae": "Cicrana",
+      "cpf": "99999999999"
+    },
+    {
+      "id": 2,
+      "nome": "Beltrano",
+      "unidade": "UND1",
+      "nomeMae": "Cicrana",
+      "cpf": "99999999999"
+    },
+    {
+      "nome": "nome do detento",
+      "cpf": "38489236462364",
+      "nomeMae": "fulana",
+      "unidade": "UND3",
+      "id": 3
+    },
+    {
+      "nome": "agora vai",
+      "cpf": "3423423423423",
+      "nomeMae": "fulana",
+      "unidade": "UND1",
+      "id": 4
+    },
+    {
+      "nome": "agora sim",
+      "cpf": "444444",
+      "nomeMae": "fulana",
+      "unidade": "UND2",
+      "id": 5
+    },
+    {
+      "nome": "agora vai da certo",
+      "cpf": "444444444444444",
+      "nomeMae": "cscwcwec",
+      "unidade": "UND2",
+      "id": 6
+    }
+  ],
+  "tipoAtendimento": [
+    {
+      "id": 1,
+      "descricao": "Educação"
+    },
+    {
+      "id": 2,
+      "descricao": "Enfermagem"
+    },
+    {
+      "id": 3,
+      "descricao": "Psicologia"
+    },
+    {
+      "id": 4,
+      "descricao": "Segurança"
+    },
+    {
+      "id": 5,
+      "descricao": "Social"
+    }
+  ],
+  "atendimentos": [
+    {
+      "id": 1,
+      "tipoAtendimento": {
+        "id": 5,
+        "descricao": "Social"
+      },
+      "detento": {
+        "id": 1,
+        "nome": "Cicrano"
+      }
+    }
+  ]
+}
